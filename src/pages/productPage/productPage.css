@@ -5,8 +5,8 @@
   }
 
   .header__logo > img {
-      height: auto;
-      width: 43px;
+    height: auto;
+    width: 43px;
   }
 
   .header__title__name {
@@ -44,5 +44,21 @@
 
   .product-description__headline {
     margin-bottom: 0.5rem;
+  }
+
+  .product--grid--id {
+    display: block;
+  }
+
+  .product--grid--h3 {
+    grid-row: 3 / 4;
+    grid-column: 3 /4;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  .product--grid--sale {
+    display: grid;
+    place-items: center;
   }
 }
