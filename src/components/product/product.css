@@ -1,0 +1,40 @@
+.product__imageSec {
+  width: 100vw;
+  position: relative;
+}
+
+.product__imageSec > img {
+  width: 100%;
+  height: auto;
+}
+
+.product__imageSec__fav {
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 8%;
+  right: 12%;
+  display: grid;
+  place-items: center;
+  width: clamp(1.5rem, 12%, 90px);
+  height: clamp(1.5rem, 12%, 90px);
+}
+
+.product__imageSec__fav > img {
+  width: clamp(1rem, 50%, 80px);
+  height: clamp(1rem, 50%, 80px);
+  margin: 10px;
+}
+
+.product__imageSec__line {
+  position: absolute;
+  bottom: 5%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.product__imageSec__line > img {
+  width: 80%;
+}
