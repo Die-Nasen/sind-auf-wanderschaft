@@ -33,19 +33,4 @@
         padding: 80px 135px;
       }
 
-      .product-description__color {
-        column-gap: 50px;
-        row-gap: 25px;
-      }
-
-      .cs {
-          width: 100px;
-          height: 100px;
-      }
-
-      .cs__basic{
-          width: 60px;
-          height: 60px;
-      }
-
   }
