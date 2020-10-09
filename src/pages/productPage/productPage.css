@@ -1,0 +1,48 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .header {
+    height: 100px;
+    padding: 80px 135px;
+  }
+
+  .header__logo > img {
+      height: auto;
+      width: 43px;
+  }
+
+  .header__title__name {
+    font-size: 1.2rem;
+  }
+  .product__imageSec {
+    padding: 0px 135px;
+  }
+
+  .product__imageSec__fav {
+    top: 5%;
+    right: 20%;
+    width: clamp(1.5rem, 12%, 70px);
+    height: clamp(1.5rem, 12%, 70px);
+  }
+
+  .product__imageSec__line {
+    bottom: 10%;
+    left: 0%;
+    margin: 0px auto;
+    width: 100%;
+  }
+
+  .product__imageSec__line > img {
+    width: 60%;
+  }
+
+  .product-description {
+    margin: 0;
+    padding: 80px 135px;
+  }
+  .product-description__price {
+    margin-bottom: 60px;
+  }
+
+  .product-description__headline {
+    margin-bottom: 0.5rem;
+  }
+}

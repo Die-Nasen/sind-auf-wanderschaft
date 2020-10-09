@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28px 35px;
-  width: 100vw;
+  padding: 40px 35px;
+  width: 100%;
   height: 56px;
 }
 
@@ -31,6 +31,6 @@
 
 .header__icon--margin {
   /* grid-column-start: 4; */
-  margin-right: 27px;
+  margin-right: 1rem;
 }
 
